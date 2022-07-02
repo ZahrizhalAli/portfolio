@@ -1,5 +1,8 @@
-import React from "react";
-
+import React from 'react';
+import img1 from '../images/cat-pedigree/1.png';
+import img2 from '../images/nobarkuy/cover.png';
+import img3 from '../images/foodknows/cover.png';
+import img4 from '../images/applyin/cover.png';
 function Projects() {
   return (
     <>
@@ -65,25 +68,23 @@ function Projects() {
             >
               <a
                 className="card card-portfolio card-default card-image-md card-hover-zoom"
-                href="portfolio-single-style-1.html"
+                href="/project/nobarkuy"
               >
                 <span
                   className="card-img"
                   data-cursor-style="cursor-circle"
                   data-cursor-text="view"
                 >
-                  <img
-                    src="assets/images/portfolio/cool-photography-1200-856.jpg"
-                    alt=""
-                  />
+                  <img src={img2} alt="" />
                 </span>
                 <span className="card-body">
-                  <span className="card-title h4">Cool Photography</span>
-                  <span className="card-category subtitle">photography</span>
+                  <span className="card-title h4">Nobarkuy</span>
+                  <span className="card-category subtitle">Web & ML</span>
                 </span>
               </a>
             </span>
           </div>
+
           <div className="col-12 col-md-6 isotope-item" data-filters="design">
             <span
               className="d-block show-on-scroll"
@@ -92,21 +93,68 @@ function Projects() {
             >
               <a
                 className="card card-portfolio card-default card-image-md card-hover-zoom"
-                href="portfolio-single-style-5.html"
+                href="/project/cat-pedigree"
               >
                 <span
                   className="card-img"
                   data-cursor-style="cursor-circle"
                   data-cursor-text="view"
                 >
-                  <img
-                    src="assets/images/portfolio/app-design-1200-856.jpg"
-                    alt=""
-                  />
+                  <img src={img1} alt="" />
                 </span>
                 <span className="card-body">
-                  <span className="card-title h4">App Design</span>
-                  <span className="card-category subtitle">marketing</span>
+                  <span className="card-title h4">CatPedigree</span>
+                  <span className="card-category subtitle">ML</span>
+                </span>
+              </a>
+            </span>
+          </div>
+
+          <div className="col-12 col-md-6 isotope-item" data-filters="design">
+            <span
+              className="d-block show-on-scroll"
+              data-show-delay="150"
+              data-show-duration="600"
+            >
+              <a
+                className="card card-portfolio card-default card-image-md card-hover-zoom"
+                href="/project/foodknows"
+              >
+                <span
+                  className="card-img"
+                  data-cursor-style="cursor-circle"
+                  data-cursor-text="view"
+                >
+                  <img src={img3} alt="" />
+                </span>
+                <span className="card-body">
+                  <span className="card-title h4">FoodKnows</span>
+                  <span className="card-category subtitle">Web & ML</span>
+                </span>
+              </a>
+            </span>
+          </div>
+
+          <div className="col-12 col-md-6 isotope-item" data-filters="design">
+            <span
+              className="d-block show-on-scroll"
+              data-show-delay="150"
+              data-show-duration="600"
+            >
+              <a
+                className="card card-portfolio card-default card-image-md card-hover-zoom"
+                href="/project/applyin"
+              >
+                <span
+                  className="card-img"
+                  data-cursor-style="cursor-circle"
+                  data-cursor-text="view"
+                >
+                  <img src={img4} alt="" />
+                </span>
+                <span className="card-body">
+                  <span className="card-title h4">ApplyIn</span>
+                  <span className="card-category subtitle">Python</span>
                 </span>
               </a>
             </span>

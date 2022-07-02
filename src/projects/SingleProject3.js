@@ -1,8 +1,7 @@
 import React from 'react';
-import img1 from '../images/cat-pedigree/1.png';
-import img2 from '../images/cat-pedigree/2.png';
-import img3 from '../images/cat-pedigree/3.png';
-function SingleProject() {
+import img1 from '../images/foodknows/cover.png';
+
+function SingleProject3() {
   return (
     <>
       <div className="container mt-10">
@@ -14,7 +13,7 @@ function SingleProject() {
               data-show-duration="500"
               data-show-distance="10"
             >
-              <h1 className="mb-100 mb-lg-0 pb-8 pb-lg-0">Cat Pedigree</h1>
+              <h1 className="mb-100 mb-lg-0 pb-8 pb-lg-0">Foodknow</h1>
             </div>
             <div
               className="col-12 col-lg-6 col-xl ms-xl-n30 show-on-scroll"
@@ -23,28 +22,28 @@ function SingleProject() {
               data-show-delay="100"
             >
               <p className="lead mb-0">
-                I like cats, so made the app for the cats. I Created Machine
-                Learning model to classify cat breeds using image input from
-                Mobile Apps.
+                I created Deep Learning to learn the food from input images
+                integrated with web apps (on-progress) and shows useful
+                information from the learning result.
               </p>
               <hr />
               <div className="row gh-3 gv-1">
                 <div className="col-12 col-sm-6 col-lg-auto">
                   <ul className="list-group list-group-gap borderless">
                     <li className="list-group-item">
-                      <span className="fw-medium me-8">Date:</span> June 14,
-                      2022
+                      <span className="fw-medium me-8">Date:</span> July 1, 2022
                     </li>
                     <li className="list-group-item">
-                      <span className="fw-medium me-8">Category:</span> Animal
-                      Welfare
+                      <span className="fw-medium me-8">Category:</span>{' '}
+                      Nutrition Assistance
                     </li>
                   </ul>
                 </div>
                 <div className="col-12 col-sm-6 col-lg-auto">
                   <ul className="list-group list-group-gap borderless">
                     <li className="list-group-item">
-                      <span className="fw-medium me-8">Type:</span> Team Work
+                      <span className="fw-medium me-8">Type:</span> Personal
+                      Project
                     </li>
                     <li className="list-group-item">
                       <span className="fw-medium">Technology:</span>
@@ -54,18 +53,7 @@ function SingleProject() {
                             href="https://facebook.com/runwebrun"
                             className="nav-link"
                           >
-                            <svg
-                              width="6"
-                              height="15"
-                              viewBox="0 0 10 22"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M8.17421 3.65234H9.99996V0.154687C9.68557 0.107422 8.60224 0 7.34088 0C4.70831 0 2.90529 1.82188 2.90529 5.16914V8.25H0V12.1602H2.90529V22H6.46588V12.1602H9.25375L9.69693 8.25H6.46588V5.55586C6.46588 4.42578 6.7424 3.65234 8.17421 3.65234Z"
-                                fill="currentColor"
-                              />
-                            </svg>
+                            ML & Web
                           </a>
                         </li>
                       </ul>
@@ -85,40 +73,12 @@ function SingleProject() {
           data-show-delay="50"
         >
           <a
-            href={img2}
+            href={img1}
             className="gallery-item gallery-item-sm"
             data-fancybox="gallery-1"
             data-animation-effect="fade"
           >
-            <img src={img2} alt="" />
-          </a>
-        </div>
-        <div
-          className="col-12 col-sm-6 show-on-scroll"
-          data-show-duration="500"
-          data-show-delay="50"
-        >
-          <a
-            href={img1}
-            className="gallery-item gallery-item-md"
-            data-fancybox="gallery-1"
-            data-animation-effect="fade"
-          >
             <img src={img1} alt="" />
-          </a>
-        </div>
-        <div
-          className="col-12 col-sm-6 show-on-scroll"
-          data-show-duration="500"
-          data-show-delay="200"
-        >
-          <a
-            href={img3}
-            className="gallery-item gallery-item-md"
-            data-fancybox="gallery-1"
-            data-animation-effect="fade"
-          >
-            <img src={img3} alt="" />
           </a>
         </div>
       </div>
@@ -142,22 +102,33 @@ function SingleProject() {
                 data-show-distance="10"
                 data-show-delay="150"
               >
-                The app aims to build platform where any cat owners connect to
-                each other. I have the role to created Machine Learning model
-                for classifying the cat breeds and convert the model into
-                TFLite. The model accuracy got {'>'} 83% where Transfer Learning
-                implemented. The projects are proposed as Bangkit 2022 Final
-                Capstone Project. The team consists of 2 Mobile Devs, 3 Machine
-                Learning Engineer and 1 Cloud Engineer
+                Taking picture of food has become very popular for many reasons.
+                What if your phone can learn from the food picture you took? and
+                tell you some information about the food. That would be very
+                cool. I apply Transfer Learning using InceptionV3 and fine-tuned
+                the model to train with 101 types of images. Embed the model to
+                web app to get more sense of beautiful and healty theme apps.
+                Currently I am doing research in an article about this project
+                focusing on the learning rate of the model to improve its
+                performance
               </p>
               <a
-                href="https://github.com/cat-pedigree/"
+                href="https://github.com/ZahrizhalAli/research-transfer-learning-food"
                 className="btn btn-dark btn-with-ball show-on-scroll"
                 data-show-duration="500"
                 data-show-distance="10"
                 data-show-delay="250"
               >
                 GitHub
+              </a>
+              <a
+                href="https://www.kaggle.com/code/zahrizhalali/inceptionv3-tflearning-food/notebook"
+                className="btn m-3 btn-dark btn-with-ball show-on-scroll"
+                data-show-duration="500"
+                data-show-distance="10"
+                data-show-delay="250"
+              >
+                Kaggle
               </a>
             </div>
             <div className="d-none d-xl-block col-lg-2"></div>
@@ -169,8 +140,10 @@ function SingleProject() {
             >
               <ul className="list mt-lg-6 mb-0">
                 <li>Machine Learning</li>
-                <li>Android</li>
-                <li>Cloud Computing</li>
+                <li>TensorFlow</li>
+                <li>React js (soon)</li>
+                <li>Node Js (soon)</li>
+                <li>Python</li>
               </ul>
             </div>
           </div>
@@ -180,4 +153,4 @@ function SingleProject() {
   );
 }
 
-export default SingleProject;
+export default SingleProject3;
