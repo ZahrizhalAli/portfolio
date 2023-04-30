@@ -17,6 +17,7 @@ function App() {
       <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/project/about" element={<SingleProject />} />
           <Route path="/project/cat-pedigree" element={<SingleProject />} />
           <Route path="/project/nobarkuy" element={<SingleProject2 />} />
           <Route path="/project/foodknows" element={<SingleProject3 />} />
