@@ -69,7 +69,7 @@ function Header() {
             </li>
 
             <li class="nav-item navbar-dropdown">
-              <a href="contact-1.html" class="nav-link">
+              <a href="/about" class="nav-link">
                 <span class="nav-link-name">About Me</span>
                 <svg
                   width="6"

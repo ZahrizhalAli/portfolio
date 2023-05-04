@@ -4,6 +4,8 @@ import './App.css';
 const Header = React.lazy(() => import('./header/Header'));
 const Footer = React.lazy(() => import('./footer/Footer'));
 const Home = React.lazy(() => import('./home/Home'));
+const About = React.lazy(() => import('./about/About'));
+
 const SingleProject = React.lazy(() => import('./projects/SingleProject'));
 const SingleProject2 = React.lazy(() => import('./projects/SingleProject2'));
 const SingleProject3 = React.lazy(() => import('./projects/SingleProject3'));
@@ -17,7 +19,7 @@ function App() {
       <Suspense fallback={null}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/project/about" element={<SingleProject />} />
+          <Route path="/about" element={<About />} />
           <Route path="/project/cat-pedigree" element={<SingleProject />} />
           <Route path="/project/nobarkuy" element={<SingleProject2 />} />
           <Route path="/project/foodknows" element={<SingleProject3 />} />

@@ -3,9 +3,12 @@ import img1 from '../images/cat-pedigree/1.png';
 import img2 from '../images/nobarkuy/cover.png';
 import img3 from '../images/foodknows/cover.png';
 import img4 from '../images/applyin/cover.png';
-function Projects() {
+function Projects({title}) {
   return (
     <>
+    <div className="mt-10 text-center projects-title">
+          <h2>{title}</h2>
+        </div>
       <div className="isotope text-center">
         <ul className="nav justify-content-center isotope-options mb-60 pb-30">
           <li

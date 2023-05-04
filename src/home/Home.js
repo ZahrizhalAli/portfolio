@@ -16,9 +16,10 @@ function Home() {
                 >
                   Zahrizhal's Working Space ✌️
                 </h1>
+                <h5 class="pb-5">AI/ML Engineer | Software Engineer | Tech Community Player</h5>
                 <a
                   href="contact-1.html"
-                  className="btn btn-dark btn-with-ball show-on-scroll"
+                  className="btn btn-dark btn-with-ball"
                   data-show-delay="60"
                   data-show-duration="500"
                   data-show-distance="20"
@@ -40,11 +41,38 @@ function Home() {
               <circle cx="187.5" cy="360.5" r="180.5" fill="#F5F5F5" />
             </svg>
           </div>
+          
         </div>{" "}
-        <div className="mt-30 text-center projects-title">
-          <h2>Some Cool Projects</h2>
+        <hr class="mt-160 pb-8"></hr>
+        <div className="row text-center mt-50">
+        <div class="col-auto col-sm-3">
+                                    <div class="number-box">
+                                        <div class="number-box-title h1">106</div>
+                                        <div class="number-box-subtitle">projects</div>
+                                    </div>
         </div>
-        <Projects />
+        <div class="col-auto col-sm-3">
+                                    <div class="number-box">
+                                        <div class="number-box-title h1">87</div>
+                                        <div class="number-box-subtitle">Cup of Coffee</div>
+                                    </div>
+        </div>
+        <div class="col-auto col-sm-3">
+                                    <div class="number-box">
+                                        <div class="number-box-title h1">3+</div>
+                                        <div class="number-box-subtitle">Years</div>
+                                    </div>
+        </div>
+        <div class="col-auto col-sm-3">
+                                    <div class="number-box">
+                                        <div class="number-box-title h1">9</div>
+                                        <div class="number-box-subtitle">Awards</div>
+                                    </div>
+        </div>
+        </div>
+        <hr class="pb-8"></hr>
+        
+        <Projects title="Machine Learning Projects" />
         <div className="container text-center home isotope">
           <div className="py-160 mt-n10 text-center">
             <h3 className="mb-60">
