@@ -259,13 +259,12 @@ function Header() {
                 <div class="mb-60">
                   <p class="lead mb-17 fw-medium">Address:</p>
                   <ul class="list-group borderless font-size-17">
-                    <li class="list-group-item">2260 Lady Bug Drive,</li>
-                    <li class="list-group-item">New York, NY 10011</li>
+                    <li class="list-group-item">Bandung, Indonesia</li>
                   </ul>
                 </div>
                 <ul class="nav nav-gap-sm navbar-nav nav-social align-items-center mt-n10">
                   <li class="nav-item">
-                    <a href="https://instagram.com/runwebrun" class="nav-link">
+                    <a href="https://instagram.com/zahriz.ali" class="nav-link">
                       <svg
                         width="18"
                         viewBox="0 0 22 22"

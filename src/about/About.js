@@ -16,8 +16,8 @@ function About(){
                     </div>
                     <div className="col-lg-1 d-none d-lg-block order-2 order-lg-2"></div>
                     <div className="col-12 col-lg ms-lg-n30 order-4 order-lg-3" data-show-duration="600" data-show-distance="10">
-                        <p className="subtitle pt-30 mt-n7">Zahrizhal Ali</p>
-                        <h1 className="h2">I’m Zahrizhal Ali ✌️ Software Engineer.</h1>
+                        <p className="subtitle pt-30 mt-n7">Resume</p>
+                        <h1 className="h2">I’m Zahrizhal Ali ✌️.</h1>
 
                         <ul className="nav nav-pills nav-tabs nav-no-gap pt-5 pb-7 mb-30" id="myTab" role="tablist">
                             <li className="nav-item" role="presentation">
@@ -27,50 +27,85 @@ function About(){
                         </ul>
 
                         <div className="tab-content">
-                            <div className="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <p className="mb-30">Land spirit abundantly Bring bearing female divided fly. Can't gathered <strong>stars, rule his creepeth is appear</strong> without morning land you'll so. Evening life yielding fowl above, fourth give, there evening.</p>
-                                <p className="mb-30">Brought <del>fourth of image very</del> above. Together won't. You'll. They're itself whales all was meat.</p>
+                            
+                            <div className="tab-pane active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <p className="mb-30">Working to better understand and explore how technology solves problems and benefits humans. Expertise in building deep learning or machine learning models and web development. I enjoy learning and converting project ideas with broadly relevant problems and doing machine learning-specific research. </p>
+                         
                                 <p className="mb-30">Were let. Fifth you're void light he Winged bring after all, green there whales sixth bring good was, let have days dry blessed moving they're isn't. Second whose tree bring unto tree that air <strong>winged multiply</strong> don't place unto. Fly fish air days to night life deep fourth face one spirit.</p>
-                                <p className="mb-n3">Image bring good itself <ins>two whose</ins> morning appear image after our light. Be together, green after.</p>
+                                <p className="mb-n3">My colleagues would describe me as a <ins>strong individual, with a love-learning attitude, and a resourceful individual</ins> especially when working with a team. Highly excited to seek opportunities that will allow me to develop technologies, especially with problem-solving-related projects like e-commerce and education. Specific fields of interest include data science, applied machine learning, and web development. </p>
                             </div>
                         </div>
                         <div className="accordion mt-40 pt-5" id="accordionAbout">
                             <div className="accordion-item">
                                 <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseDesign" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseDesign">
-                                    <span className="accordion-item-icon">🦄</span> Design (UX/UI) <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <span className="accordion-item-icon">🦄</span>Work Experiences <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
                                         <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
                                     </svg>
                                 </button>
                                 <div id="collapseDesign" className="collapse" data-parent="#accordionAbout">
                                     <div className="collapse-content">
-                                        <p className="mb-0 font-size-16">A consectetuer mollis nulla eros elit facilisi class Auctor ad. Ornare venenatis integer feugiat quis cras parturient sem pharetra cras.</p>
+                                        <ul>
+                                            <li>AI Engineer Intern @ SOCA AI <strong>2023-Present</strong></li>
+                                            <li>Machine Learning Mentor @ Bangkit Academy 2023<strong>2023-Present</strong></li>
+                                            <li>Machine Learning Engineer @ HaiTernak <strong>2022-2023</strong></li>
+                                            <li>Software Engineer (Frontend) @ ICLABS FIKOM UMI<strong>2022</strong></li>
+                                            <li>Teaching Assistant @ ICLABS FIKOM UMI<strong>2021-2023</strong></li>
+                                            <li>Freelancer (Full Stack)<strong>2020-2022</strong></li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="accordion-item">
+                                <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseDesign" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseDesign">
+                                    <span className="accordion-item-icon">🦁</span> Leadership & Awards <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
+                                        <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
+                                    </svg>
+                                </button>
+                                <div id="collapseDesign" className="collapse" data-parent="#accordionAbout">
+                                    <div className="collapse-content">
+                                        <ul>
+                                            <li>Research Scholarship Awardee by BRIN - <strong>2023</strong></li>
+                                            <li>Djarum Scholarship Awardee by PT Djarum - <strong>2021</strong></li>
+                                            <li>PKM Funding Awardee by RISTEKDIKTI - <strong>2022</strong></li>
+                                            <li>CTO and Co-Founder HaiTernak - IWDM Startup Competition <strong>2022</strong></li>
+                                            <li>Lead Google Developer Students Club - <strong>2022</strong></li>
+                                            <li>Chief Human Resources Department UKM PERISAI UMI - <strong>2022</strong></li>
+                                            <li>1st Winner Writing of Agritech Exhibition Competition - <strong>2022</strong></li>
+                                            <li>3rd Winner of National Essay Competition by Forestshare ITB - <strong>2022</strong></li>
+                                            <li>1st Winner of National Essay Competition by UNNES- <strong>2022</strong></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="accordion-item">
                                 <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseBrand" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseBrand">
-                                    <span className="accordion-item-icon">🔥</span> Brand Strategy <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <span className="accordion-item-icon">🔥</span> Machine Learning <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
                                         <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
                                     </svg>
                                 </button>
                                 <div id="collapseBrand" className="collapse show" data-parent="#accordionAbout">
                                     <div className="collapse-content">
-                                        <p className="mb-0 font-size-16">Be saying moveth spirit fruitful called set evening fly give shall moveth.</p>
+                                <p className="mb-30">My Interests is in data science and machine learning techniques, including deep learning, natural language processing, and computer vision. Mostly did all my projects with range of programming language and tools such as <strong>Python, TensorFlow, Scikit-learn, Pandas, Open-CV</strong>. For visualizing data, I often used <strong>
+                                    Matplotlib, Seaborn and Tableau</strong> In addition I used <strong>MySQL, MongoDB and BigQuery</strong>. I documented all my previous works in GitHub and Kaggle.</p>
+                                       
                                     </div>
                                 </div>
                             </div>
                             <div className="accordion-item">
                                 <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseMobile" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseMobile">
-                                    <span className="accordion-item-icon">💎</span> Mobile Development <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <span className="accordion-item-icon">💎</span> Web Development <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
                                         <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
                                     </svg>
                                 </button>
                                 <div id="collapseMobile" className="collapse" data-parent="#accordionAbout">
                                     <div className="collapse-content">
-                                        <p className="mb-0 font-size-16">Parturient eget porttitor aptent. Etiam cras sollicitudin eros lobortis ornare elit ad maecenas. Aenean tempus sed tincidunt.</p>
+                                    <p className="mb-0 font-size-16">I have worked on a wide range of projects, from personal project to medium-scale web application used by 100+ users. Tech stack I'm using is MERN <strong>MongoDB, React.js, Express.js and Node.js</strong>. During my works I used <strong>GitHub</strong> for documenting and controlling my projects. For Cloud based technology I used <strong>GCP, Firebase, and AWS S3 Storage</strong>. I devote to deliver good performing web app by utilizing Progressive Web App and increasing the performance of the web app.</p>                                       
                                     </div>
                                 </div>
                             </div>
