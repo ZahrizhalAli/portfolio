@@ -8,9 +8,9 @@ function Footer() {
           <hr className="mb-10 pb-30 border-white" />
           <div className="row gh-1 gv-2">
             <div className="col-12 col-md mt-md-04">
-              <a href="index-2.html">
-                <img width="108" src="assets/images/logo.svg" alt="" />
-              </a>
+            <a class="navbar-brand" href="/">
+              Zahrizhal Ali
+            </a>
             </div>
             <div className="col-12 col-md-4 mt-md-04">
               <ul className="nav flex-column">

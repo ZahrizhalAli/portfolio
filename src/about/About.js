@@ -1,4 +1,5 @@
 import React from "react"
+import imgprofile from '../images/profile.jpg';
 
 function About(){
 
@@ -6,7 +7,7 @@ function About(){
     <div className="container pt-130 pb-130 mt-n10">
                 <div className="row gh-1 gv-1 align-items-center align-items-lg-stretch flex-column flex-lg-row">
                     <div className="col-12 col-md-6 col-lg-5 shape-parent lines-style-5 order-1 " data-show-duration="600" data-show-distance="10" data-show-delay="100">
-                        <img className="w-100 rounded-circle" src="assets/images/persons/brian-newton-940-940.jpg" alt=""/>
+                        <img className="w-100 rounded-circle" src={imgprofile} alt=""/>
                         <div className="shape justify-content-end">
                             <svg className="mt-n60" width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="62.5" cy="62.5" r="62.5" fill="#F5F5F5" />
@@ -58,13 +59,13 @@ function About(){
                             </div>
 
                             <div className="accordion-item">
-                                <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseDesign" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseDesign">
+                                <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseLeadership" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseLeadership">
                                     <span className="accordion-item-icon">🦁</span> Leadership & Awards <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
                                         <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
                                     </svg>
                                 </button>
-                                <div id="collapseDesign" className="collapse" data-parent="#accordionAbout">
+                                <div id="collapseLeadership" className="collapse" data-parent="#accordionAbout">
                                     <div className="collapse-content">
                                         <ul>
                                             <li>Research Scholarship Awardee by BRIN - <strong>2023</strong></li>
@@ -82,13 +83,13 @@ function About(){
                             </div>
 
                             <div className="accordion-item">
-                                <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseBrand" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseBrand">
+                                <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseBrand" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseBrand">
                                     <span className="accordion-item-icon">🔥</span> Machine Learning <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
                                         <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
                                     </svg>
                                 </button>
-                                <div id="collapseBrand" className="collapse show" data-parent="#accordionAbout">
+                                <div id="collapseBrand" className="collapse" data-parent="#accordionAbout">
                                     <div className="collapse-content">
                                 <p className="mb-30">My Interests is in data science and machine learning techniques, including deep learning, natural language processing, and computer vision. Mostly did all my projects with range of programming language and tools such as <strong>Python, TensorFlow, Scikit-learn, Pandas, Open-CV</strong>. For visualizing data, I often used <strong>
                                     Matplotlib, Seaborn and Tableau</strong> In addition I used <strong>MySQL, MongoDB and BigQuery</strong>. I documented all my previous works in GitHub and Kaggle.</p>
@@ -106,6 +107,21 @@ function About(){
                                 <div id="collapseMobile" className="collapse" data-parent="#accordionAbout">
                                     <div className="collapse-content">
                                     <p className="mb-0 font-size-16">I have worked on a wide range of projects, from personal project to medium-scale web application used by 100+ users. Tech stack I'm using is MERN <strong>MongoDB, React.js, Express.js and Node.js</strong>. During my works I used <strong>GitHub</strong> for documenting and controlling my projects. For Cloud based technology I used <strong>GCP, Firebase, and AWS S3 Storage</strong>. I devote to deliver good performing web app by utilizing Progressive Web App and increasing the performance of the web app.</p>                                       
+                                    </div>
+                                </div>
+                            </div>
+                              <div className="accordion-item">
+                                <button className="h5 btn btn-link btn-clean btn-dark btn-block w-100" data-bs-target="#collapseCert" type="button" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseCert">
+                                    <span className="accordion-item-icon">🎨</span> Certifications <svg className="accordion-item-plus" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 0V16" stroke="currentColor" stroke-width="1.3" />
+                                        <path d="M0 8H16" stroke="currentColor" stroke-width="1.3" />
+                                    </svg>
+                                </button>
+                                <div id="collapseCert" className="collapse show" data-parent="#accordionAbout">
+                                    <div className="collapse-content">
+                                        <ul>
+                                            <li>Google TensorFlow Developer Certifications</li>    
+                                        </ul>                                       
                                     </div>
                                 </div>
                             </div>

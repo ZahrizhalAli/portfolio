@@ -5,10 +5,8 @@ function Header() {
     <>
       <header class="navbar navbar-top navbar-expand-lg navbar-fixed">
         <div class="container justify-content-between">
-          <a class="navbar-brand" href="index-2.html">
             <a class="navbar-brand" href="/">
               Zahrizhal Ali
-            </a>
           </a>
           <a
             class="navbar-toggle"
@@ -48,8 +46,29 @@ function Header() {
               </a>
             </li>
             <li class="nav-item navbar-dropdown">
-              <a href="portfolio-col-1-style-1.html" class="nav-link">
-                <span class="nav-link-name">projects</span>
+              <a href="#web-projects" class="nav-link">
+                <span class="nav-link-name">Web projects</span>
+                <svg
+                  width="6"
+                  height="10"
+                  viewBox="0 0 6 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 9L5 5L1 1"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li class="nav-item navbar-dropdown">
+              <a href="#ml-projects" class="nav-link">
+                <span class="nav-link-name">ML projects</span>
                 <svg
                   width="6"
                   height="10"

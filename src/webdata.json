@@ -1,0 +1,20 @@
+[
+    {
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/pubmed_1.jpg?alt=media&amp;token=15472803-3c4f-446b-ba55-dac7a88fb34a",
+        "title": "Bitprice Predict using TensorFlow",
+        "subtitle": "#time-series #deep-learning",
+        "link" : "https://github.com/ZahrizhalAli/BitCoin_TimeSeries_with_TensorFlow_Experiments"
+    },
+    {
+        "img-url" : "Mr.Text-to-speech Indonesia",
+        "title": "Text-to-speech Indonesia",
+        "subtitle": "#tts #deep-learning #text-synthesis",
+        "link" : "https://github.com/ZahrizhalAli"
+    },
+    {
+        "img-url" : "test",
+        "title": "Example 1",
+        "subtitle": "Sub Example 1",
+        "link" : "https://github.com/ZahrizhalAli"
+    }
+]

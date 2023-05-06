@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "../footer/Footer";
-import Projects from "../projects/Projects";
+import MlProjects from "../projects/MlProjects";
+import WebProjects from "../projects/WebProjects";
+
 function Home() {
   return (
     <>
@@ -72,7 +74,9 @@ function Home() {
         </div>
         <hr class="pb-8"></hr>
         
-        <Projects title="Machine Learning Projects" />
+        <MlProjects />
+        <WebProjects />
+
         <div className="container text-center home isotope">
           <div className="py-160 mt-n10 text-center">
             <h3 className="mb-60">
