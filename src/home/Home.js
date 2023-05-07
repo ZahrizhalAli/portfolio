@@ -47,25 +47,25 @@ function Home() {
         </div>{" "}
         <hr class="mt-160 pb-8"></hr>
         <div className="row text-center mt-50">
-        <div class="col-auto col-sm-3">
+        <div class="col-md-3 col-sm">
                                     <div class="number-box">
                                         <div class="number-box-title h1">106</div>
                                         <div class="number-box-subtitle">projects</div>
                                     </div>
         </div>
-        <div class="col-auto col-sm-3">
+        <div class="col-md-3 col-sm">
                                     <div class="number-box">
                                         <div class="number-box-title h1">87</div>
                                         <div class="number-box-subtitle">Cup of Coffee</div>
                                     </div>
         </div>
-        <div class="col-auto col-sm-3">
+        <div class="col-md-3 col-sm">
                                     <div class="number-box">
                                         <div class="number-box-title h1">3+</div>
                                         <div class="number-box-subtitle">Years</div>
                                     </div>
         </div>
-        <div class="col-auto col-sm-3">
+        <div class="col-md-3 col-sm">
                                     <div class="number-box">
                                         <div class="number-box-title h1">9</div>
                                         <div class="number-box-subtitle">Awards</div>

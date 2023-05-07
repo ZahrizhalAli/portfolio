@@ -1,20 +1,30 @@
 [
     {
-        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/pubmed_1.jpg?alt=media&amp;token=15472803-3c4f-446b-ba55-dac7a88fb34a",
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/bitcoin.png?alt=media&token=8c4ac9c1-c444-4d9b-8510-c849397d2e19",
         "title": "Bitprice Predict using TensorFlow",
         "subtitle": "#time-series #deep-learning",
         "link" : "https://github.com/ZahrizhalAli/BitCoin_TimeSeries_with_TensorFlow_Experiments"
     },
     {
-        "img-url" : "Mr.Text-to-speech Indonesia",
-        "title": "Text-to-speech Indonesia",
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/tts.png?alt=media&token=8f28c658-b11b-4521-8e90-f80c8ee4500a",
+        "title": "Text-to-speech Generator Indonesia",
         "subtitle": "#tts #deep-learning #text-synthesis",
         "link" : "https://github.com/ZahrizhalAli"
     },
     {
-        "img-url" : "test",
-        "title": "Example 1",
-        "subtitle": "Sub Example 1",
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/haiternak.png?alt=media&token=959be522-a4ae-4911-a851-ad0b2809b8ab",
+        "title": "HaiTernak: Pultry Disease Detection",
+        "subtitle": "#cnn #deep-learning #transfer-learning",
+        "link" : "https://github.com/ZahrizhalAli"
+    },
+    {
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/pubmed.png?alt=media&token=2615547a-0a39-4f62-b686-34f304dc647b",
+        "title": "Pubmed Abstract Classifier",
+        "subtitle": "#nlp #deep-learning #text-classification",
         "link" : "https://github.com/ZahrizhalAli"
     }
+   
+    
+
+    
 ]

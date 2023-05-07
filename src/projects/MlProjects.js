@@ -1,8 +1,5 @@
 import React from 'react';
-import img1 from '../images/cat-pedigree/1.png';
-import img2 from '../images/nobarkuy/cover.png';
-import img3 from '../images/foodknows/cover.png';
-import img4 from '../images/applyin/cover.png';
+
 import mldata from "../mldata.json"
 function MlProjects() {
   return (
@@ -64,11 +61,11 @@ function MlProjects() {
             </a>
           </li>
         </ul>
-        <div className="row gv-5 isotope-grid">
+        <div className="row gv-5 isotope-grid mt-5">
           {mldata && mldata.map((d) => {
             return <>
-            <div class="col-12 col-md-6 isotope-item" data-filters="photography">
-                            <a class="card card-portfolio card-default card-image-md card-hover-zoom text-center" href={d.link}>
+            <div class="col-lg-4 col-md-4 col-sm-6 p-6 isotope-item" data-filters="photography">
+                            <a class="card card-portfolio card-default card-image-lg card-hover-zoom text-center" href={d.link}>
                                 <span class="card-img" data-cursor-style="cursor-circle" data-cursor-text="view">
                                     <img src={d['img-url']} alt={d['img-url']}/>
                                 </span>

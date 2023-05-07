@@ -1,8 +1,4 @@
 import React from 'react';
-import img1 from '../images/cat-pedigree/1.png';
-import img2 from '../images/nobarkuy/cover.png';
-import img3 from '../images/foodknows/cover.png';
-import img4 from '../images/applyin/cover.png';
 import mldata from "../webdata.json"
 function WebProjects() {
   return (
