@@ -26,7 +26,7 @@ function Header() {
           </a>
           <ul class="nav navbar-nav">
             <li class="nav-item navbar-dropdown navbar-dropdown-mega active">
-              <a href="home.html" class="nav-link">
+              <a href="/" class="nav-link">
                 <span class="nav-link-name">home</span>
                 <svg
                   width="6"
@@ -46,7 +46,7 @@ function Header() {
               </a>
             </li>
             <li class="nav-item navbar-dropdown">
-              <a href="#web-projects" class="nav-link">
+              <a href="/#web-projects" class="nav-link">
                 <span class="nav-link-name">Web projects</span>
                 <svg
                   width="6"
@@ -67,7 +67,7 @@ function Header() {
             </li>
 
             <li class="nav-item navbar-dropdown">
-              <a href="#ml-projects" class="nav-link">
+              <a href="/#ml-projects" class="nav-link">
                 <span class="nav-link-name">ML projects</span>
                 <svg
                   width="6"
@@ -146,7 +146,7 @@ function Header() {
         </div>
         <div class="navbar-head">
           <div class="container justify-content-between">
-            <a class="navbar-brand" href="index-2.html">
+            <a class="navbar-brand" href="/">
               Zahrizhal Ali
             </a>
             <a class="navbar-toggle" data-fancybox-close>
@@ -163,12 +163,9 @@ function Header() {
                 <ul class="nav navbar-nav navbar-nav-collapse">
                   <li class="nav-item navbar-collapse active">
                     <a
-                      href="#navbarCollapseHome"
-                      class="nav-link collapsed"
-                      role="button"
-                      data-bs-toggle="collapse"
-                      aria-expanded="false"
-                      aria-controls="navbarCollapseHome"
+                      href="/"
+                      class="nav-link"
+                     
                     >
                       <span class="nav-link-name">home</span>
                       <svg
@@ -191,12 +188,9 @@ function Header() {
                   </li>
                   <li class="nav-item navbar-collapse">
                     <a
-                      href="#navbarCollapseProjects"
-                      class="nav-link collapsed"
-                      role="button"
-                      data-bs-toggle="collapse"
-                      aria-expanded="false"
-                      aria-controls="navbarCollapseProjects"
+                      href="/"
+                      class="nav-link"
+                   
                     >
                       <span class="nav-link-name">projects</span>
                       <svg
@@ -220,12 +214,9 @@ function Header() {
 
                   <li class="nav-item navbar-collapse">
                     <a
-                      href="#navbarCollapseContact"
-                      class="nav-link collapsed"
-                      role="button"
-                      data-bs-toggle="collapse"
-                      aria-expanded="false"
-                      aria-controls="navbarCollapseContact"
+                      href="/about"
+                      class="nav-link"
+                      
                     >
                       <span class="nav-link-name">About Me</span>
                       <svg
@@ -258,16 +249,16 @@ function Header() {
                     <li class="list-group-item">
                       Email:{" "}
                       <a
-                        href="mailto:hello@themebau.com?subject=Test%20Address%20Email"
+                        href="mailto:zzahrizhal.ali@gmail.com"
                         class="text-decoration-none"
                       >
-                        zahrizhalali.labfik@umi.ac.id
+                        zzahrizhal.ali@gmail.com
                       </a>
                     </li>
                     <li class="list-group-item">
                       GitHub:{" "}
                       <a
-                        href="callto:+1 202-358-0309"
+                        href="github.com/ZahrizhalAli"
                         class="text-decoration-none"
                       >
                         github.com/ZahrizhalAli
