@@ -85,7 +85,7 @@ function Home() {
               Send us a message and let's connect 👋
             </h3>
             <a
-              href="contact-1.html"
+              href="mailto:zzahrizhal.ali@gmail.com"
               className="btn btn-dark btn-with-ball mt-n10"
             >
               let’s work

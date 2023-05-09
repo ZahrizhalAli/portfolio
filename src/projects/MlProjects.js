@@ -80,7 +80,7 @@ function MlProjects() {
         
         </div>
         <a
-          href="portfolio-col-2-style-3.html"
+          href="github.com/ZahrizhalAli"
           className="btn btn-circle btn-light btn-lg mt-100"
         >
           more

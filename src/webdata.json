@@ -4,17 +4,5 @@
         "title": "Bitprice Predict using TensorFlow",
         "subtitle": "#time-series #deep-learning",
         "link" : "https://github.com/ZahrizhalAli/BitCoin_TimeSeries_with_TensorFlow_Experiments"
-    },
-    {
-        "img-url" : "Mr.Text-to-speech Indonesia",
-        "title": "Text-to-speech Indonesia",
-        "subtitle": "#tts #deep-learning #text-synthesis",
-        "link" : "https://github.com/ZahrizhalAli"
-    },
-    {
-        "img-url" : "test",
-        "title": "Example 1",
-        "subtitle": "Sub Example 1",
-        "link" : "https://github.com/ZahrizhalAli"
     }
 ]
