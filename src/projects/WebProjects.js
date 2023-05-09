@@ -46,7 +46,7 @@ function WebProjects() {
             data-show-distance="10"
           >
             <a href="#" data-filter="photography" className="nav-link">
-              <span className="nav-link-name">TensorFlow</span>
+              <span className="nav-link-name">MongoDB</span>
             </a>
           </li>
           <li
@@ -61,7 +61,7 @@ function WebProjects() {
           </li>
         </ul>
         <div className="row gv-5 isotope-grid mt-5">
-          {webdata && webdata.map((d) => {
+          {webdata ? webdata.map((d) => {
             return <>
             <div class="col-lg-4 col-md-4 col-sm-6 p-6 isotope-item" data-filters="photography">
                             <a class="card card-portfolio card-default card-image-lg card-hover-zoom text-center" href={d.link}>
@@ -75,7 +75,7 @@ function WebProjects() {
                             </a>
                         </div>
             </>
-          })}
+          }) : (<h1>Still working on it.</h1>)}
         
         </div>
         <a

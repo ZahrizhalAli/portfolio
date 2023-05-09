@@ -20,7 +20,7 @@ function Home() {
                 </h1>
                 <h5 class="pb-5">AI/ML Engineer | Software Engineer | Tech Community Player</h5>
                 <a
-                  href="contact-1.html"
+                  href="https://www.linkedin.com/in/zahrizhal-ali/"
                   className="btn btn-dark btn-with-ball"
                   data-show-delay="60"
                   data-show-duration="500"
@@ -80,9 +80,9 @@ function Home() {
         <div className="container text-center home isotope">
           <div className="py-160 mt-n10 text-center">
             <h3 className="mb-60">
-              Do you have a project?
+              Feel free to contact me
               <br />
-              Send us a message and let's connect 👋
+              to discuss more about data science, ml, web (or cats) 👋
             </h3>
             <a
               href="mailto:zzahrizhal.ali@gmail.com"
