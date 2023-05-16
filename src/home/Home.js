@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../footer/Footer";
 import MlProjects from "../projects/MlProjects";
 import WebProjects from "../projects/WebProjects";
-
+import Blog from "../blogs/Blog"
 function Home() {
   return (
     <>
@@ -76,6 +76,7 @@ function Home() {
         
         <MlProjects />
         <WebProjects />
+        <Blog/>
 
         <div className="container text-center home isotope">
           <div className="py-160 mt-n10 text-center">

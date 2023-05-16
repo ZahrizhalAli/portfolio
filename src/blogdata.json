@@ -1,0 +1,23 @@
+[
+    {
+        "date" :"1, February 2023",
+        "imgurl" :"https://miro.medium.com/v2/resize:fit:1100/format:webp/1*W4EowYN88M89U3PrZQPcQQ.png",
+        "title" :"The Summary Statistics 101",
+        "description":"Summary statistics gives you the tools you need to boil down massive datasets to reveal the highlights.",
+        "link" :"https://medium.com/@zahrizhalali/the-summary-statistics-101-b15465cdd0ef"
+    },
+    {
+        "date" :"12, October 2022",
+        "imgurl" :"https://miro.medium.com/v2/resize:fit:640/format:webp/1*azTIrnzcwCiL3YIzo6bVwg.jpeg",
+        "title" :"How to find outliers.",
+        "description":"Some of (yet) friendly ways you can do to identify outliers.",
+        "link" :"https://medium.com/@zahrizhalali/how-to-find-the-outliers-da2d92585c88"
+    },
+    {
+        "date" :"10, February 2023",
+        "imgurl" :"https://img.freepik.com/free-vector/scheme-design_1040-965.jpg?w=740&t=st=1684212523~exp=1684213123~hmac=a91c4410fda39912f821fe699067e5f3a2d5dbd11ef30d3af3d635cbb2c6cdf7",
+        "title" :"Common Text and Categorical Data Problems.",
+        "description":"Some of (yet) friendly ways you can do to identify outliers.",
+        "link" :"https://medium.com/@zahrizhalali/common-text-and-categorical-data-problems-d033c4a47431"
+    }
+]

@@ -6,7 +6,6 @@ const Footer = React.lazy(() => import('./footer/Footer'));
 const Home = React.lazy(() => import('./home/Home'));
 const About = React.lazy(() => import('./about/About'));
 
-
 function App() {
   return (
     <>

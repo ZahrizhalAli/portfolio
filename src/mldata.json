@@ -8,8 +8,8 @@
     {
         "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/tts.png?alt=media&token=8f28c658-b11b-4521-8e90-f80c8ee4500a",
         "title": "Text-to-speech Generator Indonesia",
-        "subtitle": "#tts #deep-learning #text-synthesis",
-        "link" : "https://github.com/ZahrizhalAli"
+        "subtitle": "#tts #text-synthesis #voicecloning",
+        "link" : "https://github.com/ZahrizhalAli/indonesian-tts-vits"
     },
     {
         "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/haiternak.png?alt=media&token=959be522-a4ae-4911-a851-ad0b2809b8ab",
@@ -21,7 +21,7 @@
         "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/pubmed.png?alt=media&token=2615547a-0a39-4f62-b686-34f304dc647b",
         "title": "Pubmed Abstract Classifier",
         "subtitle": "#nlp #deep-learning #text-classification",
-        "link" : "https://github.com/ZahrizhalAli"
+        "link" : "https://github.com/ZahrizhalAli/PubMed-Smart-Skimming"
     }
    
     
