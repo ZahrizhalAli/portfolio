@@ -22,9 +22,29 @@
         "title": "Pubmed Abstract Classifier",
         "subtitle": "#nlp #deep-learning #text-classification",
         "link" : "https://github.com/ZahrizhalAli/PubMed-Smart-Skimming"
+    },
+    {
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/lego.png?alt=media&token=1f3a4b42-ccf3-4ef8-b5db-8d05b9dd078c&_gl=1*6qichz*_ga*NTY5MTkwNDguMTY4Mjg1NDQ5OQ..*_ga_CW55HF8NVT*MTY4NTg5MTMwOC40LjEuMTY4NTg5MTUzOS4wLjAuMA..",
+        "title": "Brick Insights: Unraveling the LEGO Universe",
+        "subtitle": "#data-analysis #feature-engineering",
+        "link" : "https://github.com/ZahrizhalAli/Analyze_Lego_Like_Why_Not_LOL"
+    },
+    {
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/dbscan.png?alt=media&token=a45bc768-f59e-41ea-bb11-703978338d59&_gl=1*195wagx*_ga*NTY5MTkwNDguMTY4Mjg1NDQ5OQ..*_ga_CW55HF8NVT*MTY4NTg5MTMwOC40LjEuMTY4NTg5MjQ1OC4wLjAuMA..",
+        "title": "Exploring Customers Segmentation with DBSCAN",
+        "subtitle": "#data-analysis #unsupervised-learning",
+        "link" : "https://github.com/ZahrizhalAli/DBSCAN_Wholesale_customers/tree/master"
+    },
+    {
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/boosted.png?alt=media&token=3b594bf7-69bb-4bc1-97c1-bebb27d9b3c8&_gl=1*1dc1hs4*_ga*NTY5MTkwNDguMTY4Mjg1NDQ5OQ..*_ga_CW55HF8NVT*MTY4NTg5MTMwOC40LjEuMTY4NTg5NDA5Ni4wLjAuMA..",
+        "title": "Supercharging Telco Customer Churn Prediction",
+        "subtitle": "#machine-learning #boosted-trees",
+        "link" : "https://github.com/ZahrizhalAli/EDA_Boosting_Telco_Customer_Churn/tree/master"
+    },
+    {
+        "img-url" : "https://firebasestorage.googleapis.com/v0/b/zahrizhal-ali.appspot.com/o/catpedigree.png?alt=media&token=2767d23d-c819-4703-aa92-8a9beb330eba&_gl=1*dk1krf*_ga*NTY5MTkwNDguMTY4Mjg1NDQ5OQ..*_ga_CW55HF8NVT*MTY4NTg5MTMwOC40LjEuMTY4NTg5NDU3OS4wLjAuMA..",
+        "title": "CatPedigree: Cat Breeds Image Classifier",
+        "subtitle": "#deep-learning #transfer-learning #cnn",
+        "link" : "https://github.com/cat-pedigree/CatPedigree_ML_Model"
     }
-   
-    
-
-    
 ]

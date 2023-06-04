@@ -5,7 +5,7 @@ function WebProjects() {
     <>
     
     <div id="web-projects" className="text-center projects-title">
-          <h2>Web Projects</h2>
+          <h2>Web Projects (TBA)</h2>
         </div>
       <div className="isotope text-center">
         <ul className="nav justify-content-center isotope-options mb-60 pb-30">
